@@ -1,0 +1,76 @@
+/* line 1, ../sass/_03-main.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* line 7, ../sass/_03-main.scss */
+.App {
+  text-align: center;
+}
+
+/* line 11, ../sass/_03-main.scss */
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+/* line 16, ../sass/_03-main.scss */
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+/* line 23, ../sass/_03-main.scss */
+.App-title {
+  font-size: 1.5em;
+}
+
+/* line 27, ../sass/_03-main.scss */
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* line 3, ../sass/_04-components.scss */
+.job {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  border: 1px solid #404B69;
+}
+/* line 9, ../sass/_04-components.scss */
+.job .job-head {
+  display: flex;
+  flex-direction: row;
+}
+/* line 13, ../sass/_04-components.scss */
+.job .job-head .code {
+  border-bottom: 1px solid #404B69;
+  background-color: #283149;
+  color: #DBEDF3;
+  padding: 0.15em 0.6em;
+}
+/* line 22, ../sass/_04-components.scss */
+.job .job-head .time {
+  border-bottom: 1px solid #404B69;
+  background: #DA0463;
+  color: #DBEDF3;
+  padding: 0.15em 0.6em;
+}
+/* line 31, ../sass/_04-components.scss */
+.job .note {
+  color: #DBEDF3;
+  background: #404B69;
+  padding: 0.6em 0.6em;
+}

@@ -1,0 +1,37 @@
+$padding-job: .15em;
+
+.job {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  border: 1px solid $dark;
+
+  .job-head {
+    display: flex;
+    flex-direction: row;
+
+    .code {
+      border-bottom: 1px solid $dark;
+
+      background-color: $darker;
+      color: $beige;
+      padding: $padding-job #{$padding-job * 4};
+
+    }
+
+    .time {
+      border-bottom: 1px solid $dark;
+
+      background: $red;
+      color: $beige;
+      padding: $padding-job #{$padding-job * 4};
+    }
+  }
+
+  .note {
+    color: $beige;
+    background: $dark;
+    padding: #{$padding-job * 4} #{$padding-job * 4};
+  }
+
+}
