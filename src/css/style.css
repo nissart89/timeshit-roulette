@@ -57,20 +57,26 @@ body {
 /* line 13, ../sass/_04-components.scss */
 .job .job-head .code {
   border-bottom: 1px solid #404B69;
+  flex-grow: 1;
   background-color: #283149;
   color: #DBEDF3;
   padding: 0.15em 0.6em;
 }
-/* line 22, ../sass/_04-components.scss */
+/* line 23, ../sass/_04-components.scss */
 .job .job-head .time {
   border-bottom: 1px solid #404B69;
   background: #DA0463;
   color: #DBEDF3;
   padding: 0.15em 0.6em;
 }
-/* line 31, ../sass/_04-components.scss */
+/* line 32, ../sass/_04-components.scss */
 .job .note {
   color: #DBEDF3;
   background: #404B69;
   padding: 0.6em 0.6em;
+}
+/* line 33, ../sass/_04-components.scss */
+.job .note div:first-child {
+  font-size: .8em;
+  margin-bottom: .5em;
 }

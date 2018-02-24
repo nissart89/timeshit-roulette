@@ -13,6 +13,7 @@ $padding-job: .15em;
     .code {
       border-bottom: 1px solid $dark;
 
+      flex-grow: 1;
       background-color: $darker;
       color: $beige;
       padding: $padding-job #{$padding-job * 4};
@@ -29,6 +30,10 @@ $padding-job: .15em;
   }
 
   .note {
+    div:first-child {
+      font-size: .8em;
+      margin-bottom: .5em;
+    }
     color: $beige;
     background: $dark;
     padding: #{$padding-job * 4} #{$padding-job * 4};
